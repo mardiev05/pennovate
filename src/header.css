@@ -34,6 +34,11 @@ header {
     font-size: 17px;
     line-height: 19px;
     color: #4f5665;
+    transition: 0.5s;
+}
+
+.header__list a:hover {
+    color: #001f7e;
 }
 
 .header__btn {
@@ -46,4 +51,11 @@ header {
     border: 1px solid #f53855;
     border-radius: 50px;
     padding: 4px 12px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.header__btn:hover {
+    background-color: #f53855;
+    color: #fff;
 }

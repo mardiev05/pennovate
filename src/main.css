@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+main {
+    padding: 30px 100px;
+    width: 100%;
+}
+
+.main__title-row {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.main__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0b132a;
+}
+
+.main__title-text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #4f5665;
+}
+
+.main__content-row {
+    margin-top: 5%;
+    background-image: url('../images/main-bg.png');
+    background-repeat: no-repeat;
+    background-size: 85% 100%;
+    background-position: center;
+    padding-top: 100px;
+}
+
+.main__card {
+    width: 27%;
+    padding: 30px 50px;
+    background: #ffffff;
+    box-shadow: 0px 5px 50px rgb(0 0 0 / 15%);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.main__card-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #494949;
+}
+
+.main__card-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #575757;
+    margin-bottom: 10px;
+}
+
+.main__card-clock {
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #001f7e;
+    letter-spacing: 5px;
+    margin-bottom: 35px;
+}
+
+input {
+    background: #ffffff;
+    border: 1px solid #001f7e;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #787878;
+    padding: 7px 18px;
+}
+
+.main__card-btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    background: #ed1c2e;
+    box-shadow: 0px 4px 30px #f4606d;
+    border-radius: 38px;
+    border: 1px solid #ed1c2e;
+    padding: 3px 15px;
+}
